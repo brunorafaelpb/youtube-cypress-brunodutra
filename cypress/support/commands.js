@@ -32,8 +32,8 @@ Cypress.Commands.add("createOng", () => {
             name: "Gatos queridos",
             email: "gatos@mail.com",
             whatsapp: "519999999999",
-            city: "Porto Alegre",
-            uf: "RS"    
+            city: "João Pessoa",
+            uf: "PB"
         }
     }).then(response => {
         expect(response.body.id).is.not.null;
